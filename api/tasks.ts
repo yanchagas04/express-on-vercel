@@ -5,7 +5,7 @@ function generateId() {
 }
 
 function generateRandomDate() {
-    return new Date(Date.now() + Math.floor(Math.random() * 10000)).toISOString()
+    return new Date(Date.now() + Math.floor(Math.random() * 1000000)).toISOString()
 }
 
 function generateRandomBoolean() {
