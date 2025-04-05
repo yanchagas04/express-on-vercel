@@ -14,7 +14,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
         title: 'Título da Tarefa',
         description: 'Descrição da Tarefa',
         completed: false,
-        createdAt: Date.now().toString(),
-        scheduledTo: generateRandomDate().toString(),
+        createdAt: Date.now(),
+        scheduledTo: generateRandomDate(),
     })
 }
